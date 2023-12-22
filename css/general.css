@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block{
+    border: 1px solid #000; 
+    background: #FFF9E6; 
+    display: flex;
+    justify-content: center;
+}
+.text_block{
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    text-align: center;
+    margin: 30px 0px;
+}
+.per30{
+    width: 30%;
+}
+.per78{
+    width: 78%;
+}
+.per100{
+    width: 100%;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    height: 55px;
+    border: none;
+    padding: 15px 25px;
+}
+.btn_text{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+.btn_color1{
+    background-color: #7B72D8;
+}
+.btn_color2{
+    background: #120873; 
+}
+.btn_color3{
+    background: #F83F3F; 
+}
+.btn_color1:hover{
+    background-color: #594ECD;
+}
+.btn_color2:hover{
+    background: #2C1FA8;
+}
+.btn_color3:hover{
+    background: #DC2626; 
+}
+.mt20{
+    margin-top: 20px;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mt10{
+    margin-top: 10px;
+}
+.pr20{
+    padding-right: 20px;
+}
+.pd40{
+    padding: 40px;
+    box-sizing:border-box;
+}
+.field_input{
+    background-color: white;
+    font-size: 20px;
+    padding-left: 30px;
+    border: 1px solid #000;
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+form{
+    margin-top: 50px;
+    gap:10px;
+}
+.error{
+    color: #F83F3F;
+}
+.align_left{
+    text-align: left;
+}
+.space_between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+table{
+    font-size: 20px;
+    line-height: 40px;
+}
+.line{
+    height: 0;
+    border: 1px solid #000;
+    width: 100%;
+}
+.inBlock{
+    width: 75%;
+}
+.head_block{
+    font-size: 20px; 
+    font-weight: 400;
+    margin-top: 10px;
+}
+.info_anketa{
+    text-decoration-line: underline; 
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.light_text{
+    font-weight:200;
+    text-decoration-line: underline; 
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.text_regular{
+    font-size: 20px;
+    font-weight: 400;
+}
